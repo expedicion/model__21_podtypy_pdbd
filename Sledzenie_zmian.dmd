@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Sledzenie_zmian" id="AC810F3D-6788-48DB-0D1C-722349304CBF" version="3.5">
+<createdBy>kozelski</createdBy>
+<createdTime>2019-03-12 17:09:15 UTC</createdTime>
+<ownerDesignName>Sledzenie_zmian</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>AC810F3D-6788-48DB-0D1C-722349304CBF</designId>
+</OSDM_Design>

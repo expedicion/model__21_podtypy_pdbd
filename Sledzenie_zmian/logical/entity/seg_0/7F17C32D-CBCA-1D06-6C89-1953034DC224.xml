@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7F17C32D-CBCA-1D06-6C89-1953034DC224" name="PUBLIKACJA">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-12 17:12:03 UTC</createdTime>
+<ownerDesignName>Sledzenie_zmian</ownerDesignName>
+<engineerTo>
+<item key="39A0A25D-BE5A-A57D-DBB2-B3A6AF967BCD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NR_PUBLIKACJI" id="F002C235-7380-6368-DB28-98B49CB25A6C">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-12 17:12:49 UTC</createdTime>
+<ownerDesignName>Sledzenie_zmian</ownerDesignName>
+<engineerTo>
+<item key="39A0A25D-BE5A-A57D-DBB2-B3A6AF967BCD" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TYTUL" id="6B9F4140-AF0F-B2F3-86F2-8C8736AC4756">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-12 17:13:00 UTC</createdTime>
+<ownerDesignName>Sledzenie_zmian</ownerDesignName>
+<engineerTo>
+<item key="39A0A25D-BE5A-A57D-DBB2-B3A6AF967BCD" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="53B83081-92FD-909F-5206-E5BA0821C4B6" name="PUBLIKACJA PK">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-12 17:12:58 UTC</createdTime>
+<ownerDesignName>Sledzenie_zmian</ownerDesignName>
+<engineerTo>
+<item key="39A0A25D-BE5A-A57D-DBB2-B3A6AF967BCD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F002C235-7380-6368-DB28-98B49CB25A6C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
